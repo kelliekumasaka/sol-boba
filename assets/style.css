@@ -1,0 +1,26 @@
+:root{
+    --darkdarkblue: #202D42;
+    --darkblue:#2A3951;
+    --light: #E3E5E7;
+}
+
+*{
+    color: var(--darkblue)
+}
+
+#navigationBar{
+    background-color: var(--darkdarkblue);
+    color: var(--darkblue);
+}
+
+.nav-link{
+    color: var(--light);
+}
+
+.navbar-toggler-icon{
+    color: var(--light);
+}
+
+.navbar-brand{
+    color: var(--light);
+}
