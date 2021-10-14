@@ -9,18 +9,26 @@
 }
 
 #navigationBar{
-    background-color: var(--darkdarkblue);
+    background-color: var(--light);
     color: var(--darkblue);
 }
 
 .nav-link{
-    color: var(--light);
+    color: var(--darkblue);
 }
 
-.navbar-toggler-icon{
-    color: var(--light);
+body{
+    font-family: "Poppins", sans-serif;
 }
 
-.navbar-brand{
-    color: var(--light);
+#jumbotronContainer{
+    margin-left: 0px;
+    margin-right: 0px;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+}
+
+.jumbotron{
+    background-image: url(./images/depositphotos_362193794-stock-illustration-boba-tea-seamless-pattern-vector.jpeg);
 }
