@@ -13,7 +13,7 @@
     color: var(--darkblue);
 }
 
-.nav-link{
+.nav-link, .active{
     color: var(--darkblue);
 }
 
@@ -24,11 +24,37 @@ body{
 #jumbotronContainer{
     margin-left: 0px;
     margin-right: 0px;
-    height: 30vh;
+    height: 25vh;
     display: flex;
     align-items: center;
 }
 
 .jumbotron{
     background-image: url(./images/depositphotos_362193794-stock-illustration-boba-tea-seamless-pattern-vector.jpeg);
+}
+
+#instagram, #phone{
+    margin-right: 10px;
+}
+
+#contactIcons{
+    align-items: center;
+    display:flex;
+    justify-content: center;
+}
+
+h2{
+    text-align: center;
+}
+
+@media screen and (max-width: 992px){
+    #hours{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 991px) {
+    #newHours{
+        display: none;
+    }
 }
