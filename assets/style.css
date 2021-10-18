@@ -8,12 +8,16 @@
 }
 
 #navigationBar{
-    background-color: var(--light);
     color: var(--darkblue);
 }
 
 .nav-link, .active{
     color: var(--darkblue);
+}
+
+.monday{
+    display: flex;
+    justify-content: space-between;
 }
 
 ul{
@@ -54,7 +58,8 @@ body{
 }
 
 #instagram, #phone{
-    margin-right: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
 }
 
 #contactIcons{
@@ -65,6 +70,7 @@ body{
 
 #footer{
     text-align: center;
+    padding-top: 20px;
 }
 
 h3{
