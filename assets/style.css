@@ -62,9 +62,14 @@ body{
     margin-left: 5px;
 }
 
-#cardOne{
+.menuCards{
     display: flex;
     justify-content: center;
+    border: var(--darkblue) solid 3px;
+}
+
+#menuContainer{
+    border: var(--darkblue) dotted 3px;
 }
 
 #contactIcons{

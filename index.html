@@ -24,9 +24,9 @@
               <li class="nav-item">
                 <a class="nav-link active" href="#menu">Menu</a>
               </li>
-              <li class="nav-item">
+              <!-- <li class="nav-item">
                 <a class="nav-link active" href="#announcements">Announcements</a>
-              </li>
+              </li> -->
               <li class="nav-item">
                 <a class="nav-link active" href="#location">Location</a>
               </li>
@@ -48,62 +48,88 @@
     </div>
     <div class="container" id="contentContainer">
         <div class="row">
-          <div class="col-lg-2" id="hours">
-            <h3 id="sideBarHours">Hours</h3>
-            <div class="monday">
-              <p style="display: flex;">Monday:</p>
-              <p style="display: flex;">10-5</p>
-            </div>
-            <div class="monday">
-              <p style="display: flex;">Tuesday:</p>
-              <p style="display: flex;">10-5</p>
-            </div>
-            <div class="monday">
-              <p style="display: flex;">Wednesday:</p>
-              <p style="display: flex;">10-5</p>
-            </div>
-            <div class="monday">
-              <p style="display: flex;">Thursday:</p>
-              <p style="display: flex;">10-5</p>
-            </div>
-            <div class="monday">
-              <p style="display: flex;">Friday:</p>
-              <p style="display: flex;">10-5</p>
-            </div>
-            <div class="monday">
-              <p style="display: flex;">Saturday:</p>
-              <p style="display: flex;">10-7</p>
-            </div>
-            <div class="monday">
-              <p style="display: flex;">Sunday:</p>
-              <p style="display: flex;">10-7</p>
-            </div>
-            <div id="currentStatus">
-            </div>
-          </div>
-          <div class="col-lg-10 mainContent" id="menu">
-              <h3>Menu</h3>
-              <div class="col" id="cardOne">
-                <div id="milkTea">
-                  <h4>Milk Tea</h4>
-                  <p>Barley Milk Tea</p>
-                  <p>Black Milk Tea</p>
+          <span class= "col-lg-2" id="hoursLocation">
+            <div class="row-fluid">
+              <div id="hours">
+                <h3 id="sideBarHours">Hours</h3>
+                <div class="monday">
+                  <p style="display: flex;">Monday:</p>
+                  <p style="display: flex;">10-5</p>
+                </div>
+                <div class="monday">
+                  <p style="display: flex;">Tuesday:</p>
+                  <p style="display: flex;">10-5</p>
+                </div>
+                <div class="monday">
+                  <p style="display: flex;">Wednesday:</p>
+                  <p style="display: flex;">10-5</p>
+                </div>
+                <div class="monday">
+                  <p style="display: flex;">Thursday:</p>
+                  <p style="display: flex;">10-5</p>
+                </div>
+                <div class="monday">
+                  <p style="display: flex;">Friday:</p>
+                  <p style="display: flex;">10-5</p>
+                </div>
+                <div class="monday">
+                  <p style="display: flex;">Saturday:</p>
+                  <p style="display: flex;">10-7</p>
+                </div>
+                <div class="monday">
+                  <p style="display: flex;">Sunday:</p>
+                  <p style="display: flex;">10-7</p>
+                </div>
+                <div id="currentStatus">
                 </div>
               </div>
-              
-          </div>
+              <div id="location" style="justify-content: center;">
+                <h3>Location</h3>
+                <a href="https://www.google.com/maps/@47.1784905,-122.484428,18z" target="_blank"><img src="./assets/images/map.png" width="70%" style="margin-left: 15%; margin-right: 15%;"></a>
+              </div>
+            </div>  
+          </span>
+          <span class="col-lg-10 mainContent" id="menuContainer">
+            <div id="menu">
+              <h3>Menu</h3>
+              <div class="row">
+                <div class="col-lg-6 col-md-12 menuCards">
+                  <div class="row">
+                    <div id="milkTea">
+                      <h4>Milk Tea</h4>
+                      <p>Barley Milk Tea</p>
+                      <p>Black Milk Tea</p>
+                    </div>
+                    <div id="milkTea">
+                      <h4>Milk Tea</h4>
+                      <p>Barley Milk Tea</p>
+                      <p>Black Milk Tea</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-12 menuCards">
+                  <div class="row">
+                    <div id="milkTea">
+                      <h4>Milk Tea</h4>
+                      <p>Barley Milk Tea</p>
+                      <p>Black Milk Tea</p>
+                    </div>
+                    <div id="milkTea">
+                      <h4>Milk Tea</h4>
+                      <p>Barley Milk Tea</p>
+                      <p>Black Milk Tea</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </span>
         </div>
-        <div class="row" style="justify-content: flex-end;">
+        <!-- <div class="row" style="justify-content: flex-end;">
           <div class="col-lg-10 mainContent" id="announcements">
             <h3>Announcements</h3>
           </div>
-        </div>
-        <div class="row" style="justify-content: flex-end;">
-            <div class="col-lg-10 mainContent" id="location" style="justify-content: center;">
-                <h3>Location</h3>
-                <a href="https://www.google.com/maps/@47.1784905,-122.484428,18z" target="_blank"><img src="./assets/images/map.png" width="70%" style="margin-left: 15%; margin-right: 15%;"></a>
-            </div>
-        </div>
+        </div> -->
         <div class="row" style="justify-content: flex-end;">
             <div class="col-lg-10 mainContent" id="newHours">
                 <h3>Hours</h3>
