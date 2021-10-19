@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sol Boba</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="./assets/style.css">
-    <link rel="shortcut icon" href="./assets/images/Sol Boba Logo-03 (1).png">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sol Boba</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="./assets/style.css">
+  <link rel="shortcut icon" href="./assets/images/Sol Boba Logo-03 (1).png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,500;0,600;0,700;0,800;1,600;1,700;1,800&display=swap" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light"  id="navigationBar">
@@ -83,41 +83,76 @@
                 <div id="currentStatus">
                 </div>
               </div>
-              <div id="location" style="justify-content: center;">
-                <h3>Location</h3>
-                <a href="https://www.google.com/maps/@47.1784905,-122.484428,18z" target="_blank"><img src="./assets/images/map.png" width="70%" style="margin-left: 15%; margin-right: 15%;"></a>
+              <div id="locationContainer">
+                <h3 id="location">Location</h3>
+                <a href="https://www.google.com/maps/@47.1784905,-122.484428,18z" target="_blank">
+                  <p>8718 S Tacoma Way D</p> 
+                  <p>Lakewood, WA 98499</p>
+                </a>
               </div>
             </div>  
           </span>
           <span class="col-lg-10 mainContent" id="menuContainer">
             <div id="menu">
-              <h3>Menu</h3>
               <div class="row">
-                <div class="col-lg-6 col-md-12 menuCards">
+                <h3>Menu</h3>
+              </div>
+              <div class="row" id="fullMenuRow">
+                <div class="col-lg-6 col-md-12 menuCards"  style="border-right: 1px white solid;">
                   <div class="row">
                     <div id="milkTea">
-                      <h4>Milk Tea</h4>
+                      <br><br>
+                      <h4>Milk Tea series</h4>
+                      <br>
                       <p>Barley Milk Tea</p>
-                      <p>Black Milk Tea</p>
+                      <br>
+                      <p>Jasmine Milk Tea</p>
+                      <br>
+                      <p>Classic Milk Tea</p>
+                      <br>
+                      <p>Tiger Milk Tea</p>
+                      <br>
+                      <p>Honey Milk Tea</p>
+                      <br>
                     </div>
-                    <div id="milkTea">
-                      <h4>Milk Tea</h4>
-                      <p>Barley Milk Tea</p>
-                      <p>Black Milk Tea</p>
+                    <div id="fruitTea">
+                      <h4>Fruit Tea series</h4>
+                      <br>
+                      <p>Mango Green Tea</p>
+                      <br>
+                      <p>Lychee Black Tea</p>
+                      <br>
+                      <p>Green Grape Black Tea</p>
+                      <br>
+                      <p>Strawberry Green Tea</p>
+                      <br>
                     </div>
                   </div>
                 </div>
                 <div class="col-lg-6 col-md-12 menuCards">
                   <div class="row">
-                    <div id="milkTea">
-                      <h4>Milk Tea</h4>
-                      <p>Barley Milk Tea</p>
+                    <div id="specialtyDrinks">
+                      <br><br>
+                      <h4>Specialty Drinks</h4>
+                      <br>
+                      <p>SpaceX</p>
+                      <br>
+                      <p>Banana Milk</p>
+                      <br>
+                      <p>S.B.S.C.</p>
+                      <br>
                       <p>Black Milk Tea</p>
+                      <br>
+                      <p>Black Milk Tea</p>
+                      <br>
                     </div>
-                    <div id="milkTea">
-                      <h4>Milk Tea</h4>
-                      <p>Barley Milk Tea</p>
-                      <p>Black Milk Tea</p>
+                    <div id="cronuts">
+                      <h4>Cronuts</h4>
+                      <br>
+                      <p>Chocolate and almond</p>
+                      <br>
+                      <p>Matcha and red bean</p>
+                      <br>
                     </div>
                   </div>
                 </div>
