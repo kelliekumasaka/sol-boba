@@ -20,6 +20,5 @@ if (moment().format("dddd")==="Thursday" && moment().hour()>=10 && moment().hour
     document.querySelector("#currentStatus").append(closedSign);
     closedSign.setAttribute("id", "closedSign");
     closedSign.addEventListener("mouseover", rotateSign());
-
 }
 

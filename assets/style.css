@@ -65,8 +65,14 @@ body{
 .menuCards{
     display: flex;
     justify-content: center;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
+#contact{
+    margin-top: 30px;
+    padding-left: 50px;
+}
 
 #contactIcons{
     align-items: center;
@@ -76,7 +82,7 @@ body{
 
 #footer{
     text-align: center;
-    padding-top: 20px;
+    margin-top: 30px;
 }
 
 h3{
@@ -87,6 +93,7 @@ h3{
 #kellie{
     color: var(--darkblue);
     text-decoration: none;
+    padding-left: 50px;
 }
 
 #nyle:hover, #kellie:hover{
@@ -121,4 +128,14 @@ h3{
 h4{
     font-style: italic;
     font-weight: 600;
+}
+
+.addressTag{
+    padding: 0px;
+    margin:0px;
+    text-decoration: none;
+}
+
+#menu{
+    padding-left: 50px;
 }
